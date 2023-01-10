@@ -1,0 +1,111 @@
+
+
+.me {
+    max-width: 100%;
+    max-height: 5cm;
+    border-radius: 75%;
+    margin: 1cm;
+
+}
+a img {
+    max-width: 100%;
+    max-height: 4cm;
+    border-radius: 75%;
+    
+}
+
+
+h1 {
+    float: right;
+    margin: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2cm;
+
+}
+  
+body {
+    width: 85vw;
+    height: 100vh;
+    background-color: lavender;
+}
+  
+.about-me {
+    width: 85vw;
+    height: 40vh;
+    background-color: lavender;
+    font-size: 30px;
+    color: black;
+    margin: 2cm;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border-style: double;
+    display: flex;
+
+   
+}
+
+.my-work {
+    width: 85vw;
+    height: 5cmcm;
+    margin: 2cm;
+    background-color: lavender;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-align: left;
+    image-rendering: auto;
+    border-style: double;
+    display: flex;
+    flex-wrap: auto; 
+}
+
+.contact-me {
+    width: 85vw;
+    height: 40vh;
+    background-color: lavender;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 2cm;
+    text-align: left;
+    border-style: double;
+    display: flex;
+}
+
+.resume {
+    width: 85vw;
+    height: 40vh;
+    background-color: lavender;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 2cm;
+    text-align: left;
+    border-style: double;
+    display: flex;
+}
+
+
+.nav {
+    
+    height: 2cm;
+    background-color: floralwhite;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin: 1cm;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+    border-radius: 10%;
+    display: flex;
+}
+.nav a:hover{
+    color: transparent;
+}
+
+.btn {
+    color: black;
+    background-color: floralwhite;
+    text-decoration: none;
+}
